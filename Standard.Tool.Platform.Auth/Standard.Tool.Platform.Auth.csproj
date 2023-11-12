@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.5.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Standard.Tool.Platform.Data\Standard.Tool.Platform.Data.csproj" />
+    <ProjectReference Include="..\Standard.Tool.Platform.MVVM\Standard.Tool.Platform.MVVM.csproj" />
+  </ItemGroup>
+
+</Project>

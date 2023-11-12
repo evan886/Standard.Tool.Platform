@@ -1,0 +1,126 @@
+[
+  {
+    "HeadName": "标准库导入导出",
+    "Icon": 2748,
+    "SubItems": [
+      {
+        "Name": "标准脚本导入",
+        "ScreenName": "MainWindow1"
+      },
+      {
+        "Name": "标准脚本导出",
+        "ScreenName": null
+      },
+      {
+        "Name": "标准设备导入",
+        "ScreenName": null
+      },
+      {
+        "Name": "标准设备导出",
+        "ScreenName": null
+      },
+      {
+        "Name": "标准PI导入",
+        "ScreenName": null
+      },
+      {
+        "Name": "标准PI导出",
+        "ScreenName": null
+      },
+      {
+        "Name": "数据库对象导入",
+        "ScreenName": null
+      },
+      {
+        "Name": "数据库对象导出",
+        "ScreenName": null
+      },
+      {
+        "Name": "XFP参数导入",
+        "ScreenName": null
+      },
+      {
+        "Name": "XFP参数导出",
+        "ScreenName": null
+      }
+    ]
+  },
+  {
+    "HeadName": "项目级应用功能",
+    "Icon": 1809,
+    "SubItems": [
+      {
+        "Name": "用户批量导入",
+        "ScreenName": "UserDataOperatePage"
+      },
+      {
+        "Name": "客制化权限导入",
+        "ScreenName": null
+      },
+      {
+        "Name": "物料主数据导入",
+        "ScreenName": "MaterialDataOperatePage"
+      },
+      {
+        "Name": "物料清单导入",
+        "ScreenName": null
+      },
+      {
+        "Name": "位置导入",
+        "ScreenName": null
+      },
+      {
+        "Name": "设备数据导入",
+        "ScreenName": null
+      },
+      {
+        "Name": "参数管理功能",
+        "ScreenName": null
+      },
+      {
+        "Name": "打印机配置信息迁移",
+        "ScreenName": null
+      },
+      {
+        "Name": "称配信息迁移",
+        "ScreenName": null
+      }
+    ]
+  },
+  {
+    "HeadName": "其他功能",
+    "Icon": 2718,
+    "SubItems": [
+      {
+        "Name": "系统日志在线查看",
+        "ScreenName": null
+      },
+      {
+        "Name": "数据源配置",
+        "ScreenName": null
+      },
+      {
+        "Name": "翻译修改",
+        "ScreenName": null
+      },
+      {
+        "Name": "个人信息设置",
+        "ScreenName": null
+      }
+    ]
+  },
+  {
+    "HeadName": "工具管理",
+    "Icon": 7103,
+    "SubItems": [
+      {
+        "Name": "用户管理",
+        "ScreenName": "AccountPage"
+      },
+      {
+        "Name": "权限管理",
+        "ScreenName": "PermissionPage"
+      }
+    ]
+  }
+]

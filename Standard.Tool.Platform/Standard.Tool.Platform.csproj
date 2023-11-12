@@ -1,0 +1,104 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="appsettings.json" />
+    <None Remove="Image\azure.png" />
+    <None Remove="Image\closed.png" />
+    <None Remove="Image\dingding.png" />
+    <None Remove="Image\google.png" />
+    <None Remove="Image\key.png" />
+    <None Remove="Image\lock.png" />
+    <None Remove="Image\login_background.png" />
+    <None Remove="Image\maximize.png" />
+    <None Remove="Image\minimize.png" />
+    <None Remove="Image\qq.png" />
+    <None Remove="Image\siemens.png" />
+    <None Remove="Image\user.png" />
+    <None Remove="Image\weichat.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\dingding.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\google.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Standard.Tool.Platform.Auth\Standard.Tool.Platform.Auth.csproj" />
+    <ProjectReference Include="..\Standard.Tool.Platform.Common\Standard.Tool.Platform.Common.csproj" />
+    <ProjectReference Include="..\Standard.Tool.Platform.Core\Standard.Tool.Platform.Core.csproj" />
+    <ProjectReference Include="..\Standard.Tool.Platform.Data\Standard.Tool.Platform.Data.csproj" />
+    <ProjectReference Include="..\Standard.Tool.Platform.Library\Standard.Tool.Platform.Library.csproj" />
+    <ProjectReference Include="..\Standard.Tool.Platform.Locations\Standard.Tool.Platform.Locations.csproj" />
+    <ProjectReference Include="..\Standard.Tool.Platform.Materials\Standard.Tool.Platform.Materials.csproj" />
+    <ProjectReference Include="..\Standard.Tool.Platform.Menus\Standard.Tool.Platform.Menus.csproj" />
+    <ProjectReference Include="..\Standard.Tool.Platform.MVVM\Standard.Tool.Platform.MVVM.csproj" />
+    <ProjectReference Include="..\Standard.Tool.Platform.Oracle\Standard.Tool.Platform.Oracle.csproj" />
+    <ProjectReference Include="..\Standard.Tool.Platform.PostgreSql\Standard.Tool.Platform.PostgreSql.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\azure.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\closed.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\key.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\lock.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\login_background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\maximize.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\minimize.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\qq.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\siemens.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\user.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\weichat.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="TableData\Menu.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
